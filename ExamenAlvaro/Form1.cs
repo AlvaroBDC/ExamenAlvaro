@@ -15,6 +15,7 @@ namespace ExamenAlvaro
     {
         public Form1()
         {
+            string connectionString = "Data Source=DESKTOP-LG5K25L\\SQLEXPRESS;Initial Catalog=VentasLibros;Integrated Security=True";
             InitializeComponent();
         }
 
