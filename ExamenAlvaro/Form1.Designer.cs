@@ -94,6 +94,7 @@
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(304, 20);
             this.txtNombre.TabIndex = 9;
+            this.txtNombre.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
             // 
             // txtCodigo
             // 
@@ -101,6 +102,7 @@
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.Size = new System.Drawing.Size(85, 20);
             this.txtCodigo.TabIndex = 10;
+            this.txtCodigo.TextChanged += new System.EventHandler(this.txtCodigo_TextChanged);
             // 
             // cmbTipo
             // 
@@ -109,6 +111,7 @@
             this.cmbTipo.Name = "cmbTipo";
             this.cmbTipo.Size = new System.Drawing.Size(121, 21);
             this.cmbTipo.TabIndex = 24;
+            this.cmbTipo.SelectedIndexChanged += new System.EventHandler(this.cmbTipo_SelectedIndexChanged);
             // 
             // txtPrecio
             // 
@@ -116,6 +119,7 @@
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(89, 20);
             this.txtPrecio.TabIndex = 23;
+            this.txtPrecio.TextChanged += new System.EventHandler(this.txtPrecio_TextChanged);
             // 
             // txtCantidad
             // 
@@ -123,6 +127,7 @@
             this.txtCantidad.Name = "txtCantidad";
             this.txtCantidad.Size = new System.Drawing.Size(86, 20);
             this.txtCantidad.TabIndex = 22;
+            this.txtCantidad.TextChanged += new System.EventHandler(this.txtCantidad_TextChanged);
             // 
             // txtTtitulo
             // 
@@ -130,6 +135,7 @@
             this.txtTtitulo.Name = "txtTtitulo";
             this.txtTtitulo.Size = new System.Drawing.Size(304, 20);
             this.txtTtitulo.TabIndex = 21;
+            this.txtTtitulo.TextChanged += new System.EventHandler(this.txtTtitulo_TextChanged);
             // 
             // label9
             // 
@@ -185,6 +191,7 @@
             this.buttonAgregar.TabIndex = 25;
             this.buttonAgregar.Text = "Agregar";
             this.buttonAgregar.UseVisualStyleBackColor = true;
+            this.buttonAgregar.Click += new System.EventHandler(this.buttonAgregar_Click);
             // 
             // buttonLimpiar
             // 
@@ -194,6 +201,7 @@
             this.buttonLimpiar.TabIndex = 26;
             this.buttonLimpiar.Text = "Limpiar";
             this.buttonLimpiar.UseVisualStyleBackColor = true;
+            this.buttonLimpiar.Click += new System.EventHandler(this.buttonLimpiar_Click);
             // 
             // buttonEliminar
             // 
@@ -203,6 +211,7 @@
             this.buttonEliminar.TabIndex = 27;
             this.buttonEliminar.Text = "Eliminar";
             this.buttonEliminar.UseVisualStyleBackColor = true;
+            this.buttonEliminar.Click += new System.EventHandler(this.buttonEliminar_Click);
             // 
             // rbtnMasculino
             // 
@@ -214,6 +223,7 @@
             this.rbtnMasculino.TabStop = true;
             this.rbtnMasculino.Text = "Masculino";
             this.rbtnMasculino.UseVisualStyleBackColor = true;
+            this.rbtnMasculino.CheckedChanged += new System.EventHandler(this.rbtnMasculino_CheckedChanged);
             // 
             // rbtnFemenino
             // 
@@ -225,6 +235,7 @@
             this.rbtnFemenino.TabStop = true;
             this.rbtnFemenino.Text = "Femenino";
             this.rbtnFemenino.UseVisualStyleBackColor = true;
+            this.rbtnFemenino.CheckedChanged += new System.EventHandler(this.rbtnFemenino_CheckedChanged);
             // 
             // Form1
             // 
